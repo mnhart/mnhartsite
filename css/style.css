@@ -1,0 +1,326 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014.06.20., 17:20:31
+    Author     : Lorant
+*/
+
+
+/*General Rules*/
+h1, h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-success {
+    background-color: #293B47;
+    border-color: #293B47;
+    transition: background-color 0.8s ease;
+}
+
+.btn-success:hover {
+    background-color: #269ABC;
+    border-color: #269ABC;
+}
+
+.modal-dialog {
+  width: 840px;
+  text-align: center;
+}
+
+/*Main Navigation*/
+
+.navbar {
+    text-transform: uppercase;
+    background-color: #293B47;
+}
+
+.navbar-brand {
+    text-transform: lowercase;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+
+.logotext {
+    color: #9BC421; 
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.8s ease;
+} 
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #269ABC;
+    color: white;
+}
+
+/*Header area*/
+
+header {
+    background-color: #9BC421;
+    color: white;
+    padding: 50px;
+}
+
+#maintext {
+    margin-top:35px;
+}
+
+#featuredimg{
+    padding-top:50px;
+    text-align: center;
+    float: right;
+    margin-right:70px;
+}
+
+.main {
+    text-shadow:-2px -1px rgba(0, 0, 0, .3);
+    text-align: left;
+    font-size: 22px;
+}
+
+h1.main {
+    font-size: 36px;
+}
+
+@media screen and (max-width:700px){
+    #featuredimg {
+        display:none;
+    }
+}
+
+/*Portfolio section*/
+
+.nav-tabs li{
+    width: 33.334%;
+    text-align: center;
+}
+
+.nav-tabs li.active a{
+    background-color: #293B47;
+    color: white;
+}
+
+.nav-tabs li.active a:hover{
+    background-color: #293B47;
+    color: white;
+}
+
+.nav-tabs li a { 
+    background-color: #9BC421;
+    color:white;
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-tabs li.active a { 
+    border: none !important;
+}
+.nav-tabs li a:hover { 
+    background-color: #B1E026;
+    color:white;
+    border: none !important;
+}
+
+.nav-tabs > li.active > a:focus{
+    background-color:#293B47;
+    color:white;
+}
+
+.tab-content>.active {
+    background-color: #293B47;
+    color: white;
+    padding:30px;
+}
+
+/*Tab content styling*/
+
+.row {
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-bottom: 0px;
+}
+
+#home .col-md-4 {
+    text-align: center;
+}
+
+#home .img-responsive {
+    display: inline !important;
+}
+
+#logo .col-md-4 {
+    text-align: center;
+}
+
+#logo .img-responsive {
+    display: inline !important;
+}
+
+#print .col-md-4 {
+    text-align: center;
+}
+
+#print .img-responsive {
+    display: inline !important;
+}
+
+.rollover {
+    position: absolute;
+    width: 81.5%;
+    height: 100%;
+    margin-left:20px;
+    margin-right:40px;
+    opacity: 0;
+    background: rgba(155, 196, 33, 1);
+    -webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    transition: all ease .8s;
+    overflow: hidden;
+}
+
+.rollover:hover {
+    opacity: 1;
+}
+
+#modals .btn {
+    margin-left:20px;
+}
+
+.caption-texts {
+    margin-top: 30px;
+    color: white;
+}
+/*About section*/
+
+#about {
+    background-color: whitesmoke;
+}
+
+#about p{
+    font-size: large;
+    color: #959595;
+    text-shadow: 0px 1px 0px #fff;
+}
+#about li {
+    list-style: none;
+    font-size: large;
+    color: #959595;
+    text-shadow: 0px 1px 0px #fff;
+
+}
+#about ul{
+    background-color: white;
+    padding:20px;
+    box-shadow: 1px 1px 6px #888888;
+    margin-bottom: 1px;
+
+}
+
+#about .col-md-4 {
+    text-align: center;
+}
+#about hr {
+    border-top: 1px solid #CFCECE;
+    border-bottom: 1px solid white;
+    box-shadow: 1px 1px 6px #CFCECE;
+}
+
+
+.glyphicon {
+    color: #9BC421;
+}
+
+.aboutcenter {
+    display: table;
+}
+
+.aboutcentercol{
+    display:table-cell;
+    vertical-align: middle;
+    float:none;
+}
+
+.first {
+    margin-top: 30px;
+}
+
+#pencil {
+    background-color: #0f8ba8;
+}
+
+#wrench {
+    background-color: #269ABC;
+    margin-bottom: 30px;
+}
+
+#lightbulb {
+    background-color: #007487;
+}
+
+#personal {
+    margin-top:50px;
+    padding:20px;
+    background-color: #293B47;
+}
+
+#personal p{
+    color: white;
+    text-shadow: none;
+    padding:10px;
+}
+
+#personal h2{
+    color: #9BC421;
+}
+
+#personal img{
+    border: 8px solid white;
+}
+
+
+#contact {
+    background-color: #9BC421;
+}
+
+#contactform {
+    width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+}
+
+address {
+    color: white;
+    font-size: large;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#footer {
+    background-color: #293B47;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top:5px;
+}
+
+
